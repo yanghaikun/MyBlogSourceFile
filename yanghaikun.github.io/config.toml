@@ -1,0 +1,5 @@
+theme = "workbook"
+baseurl = "http://yanghaikun.github.io/"
+languageCode = "en-us"
+title = "yanghaikun"
+disqusShortname = "XYW"

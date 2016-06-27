@@ -1,0 +1,15 @@
+{{ template "theme/partials/header.html" . }}
+<article>
+	<ul>
+	{{ range first 10 .Data.Pages }}
+		<li>
+    		{{ .Date.Format "2006/1/2" }}&nbsp----&nbsp <a href="{{ .Permalink }}">{{ .Title }}</a>
+    	</li>
+  	{{ end }}
+	
+	</ul>
+	<ul>
+		<img class="index" src="/images/godfather.png" width="387" height="424">
+	</ul>
+</article>
+{{ template "theme/partials/footer.html" . }}
